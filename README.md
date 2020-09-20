@@ -5,8 +5,8 @@ I want to be able to place a cd-case with a passive rfid-chip on a specified loc
 I don't want to use the rpi directly, because it is somewhere else and also too bulky. So the rfid reader should be connected with an esp8266 wifi microcontroller. 
 The esp8266 then connects wirelessly to the rpi and the rpi controls the Sonos speaker
 ## what you need
-- [rfid reader](https://www.amazon.de/AZDelivery-Reader-Arduino-Raspberry-gratis/dp/B074S9FZC5/ref=sr_1_6?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=E4CHPTG0BWK2&dchild=1&keywords=rfid+raspberry+pi&qid=1600594839&sprefix=rfid+raspberry%2Caps%2C242&sr=8-6) _10 Euro, needed_
-- [nodeMCU esp8266] (https://www.amazon.de/AZDelivery-NodeMCU-ESP8266-ESP-12E-Development/dp/B0754HWZSQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3OXGIP9RVMAB4&dchild=1&keywords=nodemcu+esp8266&qid=1600618699&sprefix=nodem%2Caps%2C297&sr=8-3) _got one still I think, order new ones for safety_
+- [rfid reader](https://www.amazon.de/AZDelivery-Reader-Arduino-Raspberry-gratis/dp/B074S9FZC5/ref=sr_1_6?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=E4CHPTG0BWK2&dchild=1&keywords=rfid+raspberry+pi&qid=1600594839&sprefix=rfid+raspberry%2Caps%2C242&sr=8-6) _10€ for 5, needed_
+- [nodeMCU esp8266](https://www.amazon.de/AZDelivery-NodeMCU-ESP8266-ESP-12E-Development/dp/B0754HWZSQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3OXGIP9RVMAB4&dchild=1&keywords=nodemcu+esp8266&qid=1600618699&sprefix=nodem%2Caps%2C297&sr=8-3) _still got one I think, order new ones for safety, 14€ for 3_
 - rpi _present_
 
 ## todo
@@ -17,5 +17,5 @@ The esp8266 then connects wirelessly to the rpi and the rpi controls the Sonos s
 - broadcast album/playlist
 ### rpi
 - listen to broadcast
-- host [node-sonos-http-api] (https://github.com/jishi/node-sonos-http-api) to control Sonos speaker
+- host [node-sonos-http-api](https://github.com/jishi/node-sonos-http-api) to control Sonos speaker
 
