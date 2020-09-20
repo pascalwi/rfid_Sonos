@@ -6,7 +6,16 @@ I don't want to use the rpi directly, because it is somewhere else and also too 
 The esp8266 then connects wirelessly to the rpi and the rpi controls the Sonos speaker
 ## what you need
 - [rfid reader](https://www.amazon.de/AZDelivery-Reader-Arduino-Raspberry-gratis/dp/B074S9FZC5/ref=sr_1_6?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=E4CHPTG0BWK2&dchild=1&keywords=rfid+raspberry+pi&qid=1600594839&sprefix=rfid+raspberry%2Caps%2C242&sr=8-6) _10 Euro, needed_
-- nodeMCU esp8266 _one present I think, order new ones for safety_
+- [nodeMCU esp8266] (https://www.amazon.de/AZDelivery-NodeMCU-ESP8266-ESP-12E-Development/dp/B0754HWZSQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3OXGIP9RVMAB4&dchild=1&keywords=nodemcu+esp8266&qid=1600618699&sprefix=nodem%2Caps%2C297&sr=8-3) _got one still I think, order new ones for safety_
 - rpi _present_
 
+## todo
+### esp8266
+- micro usb to nodeMCU
+- connect wifi and mqtt
+- power and read rfid reader with nodeMCU
+- broadcast album/playlist
+### rpi
+- listen to broadcast
+- host [node-sonos-http-api] (https://github.com/jishi/node-sonos-http-api) to control Sonos speaker
 
