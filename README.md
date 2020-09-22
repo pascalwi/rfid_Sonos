@@ -23,3 +23,4 @@ The esp8266 then connects wirelessly to the rpi and the rpi controls the Sonos s
 - directly from esp to sonos is easier
 - either with micropython and [node-sonos-http-api](https://github.com/jishi/node-sonos-http-api), not sure if esp powerful/big enough
 - or [sonos-esp](https://github.com/bopeterson/sonos-esp) seems more lightweight ? not sure
+- [another arduino sonos library](https://github.com/tmittet/sonos)
