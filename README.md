@@ -10,7 +10,7 @@ The esp8266 then connects wirelessly to the rpi and the rpi controls the Sonos s
 - rpi 
 
 ## todo
-###V1
+### V1
 #### esp8266
 - micro usb to nodeMCU
 - connect wifi and mqtt
@@ -19,7 +19,7 @@ The esp8266 then connects wirelessly to the rpi and the rpi controls the Sonos s
 #### rpi
 - listen to broadcast
 - host [node-sonos-http-api](https://github.com/jishi/node-sonos-http-api) to control Sonos speaker
-###V2
+### V2
 - directly from esp to sonos is easier
 - either with micropython and [node-sonos-http-api](https://github.com/jishi/node-sonos-http-api), not sure if esp powerful/big enough
 - or [sonos-esp](https://github.com/bopeterson/sonos-esp) seems more lightweight ? not sure
