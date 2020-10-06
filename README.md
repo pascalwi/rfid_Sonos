@@ -27,3 +27,7 @@ The esp8266 then connects wirelessly to the rpi and the rpi controls the Sonos s
 - [sonos API docs](https://developer.sonos.com/build/direct-control/control/)
 ## Progress
 - rfid + esp8266 working with [this example](https://www.smarthome-tricks.de/esp8266/rfid-reader-rc522/)
+
+
+## helpful stuff
+- https://github.com/jishi/node-sonos-http-api/issues/632
