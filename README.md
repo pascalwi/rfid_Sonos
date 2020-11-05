@@ -33,3 +33,5 @@ The esp8266 then connects wirelessly to the rpi and the rpi controls the Sonos s
 - https://github.com/jishi/node-sonos-http-api/issues/632
 - https://esp8266-shop.com/blog/how-to-http-get-and-post-requests-with-esp8266/
 - https://github.com/maddox/magic-cards
+### add libraries to arduino ide
+- download github zip and in arduino ide -> sketch -> include library
